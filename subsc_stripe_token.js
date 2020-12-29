@@ -1,15 +1,15 @@
 // Stripe API Key
-var stripe = Stripe('pk_live_51Hc4vUCvqaon4KILdXVs3IPWgxZd716ATii01HwEKQQg10muSSm31nPInXoTK8CZMr3Gr2CUYzhAaV4dPtCWSoSY00XQGWhSPf');
+var stripe = Stripe('pk_test..');
 var elements = stripe.elements();
 // Custom Styling
 var style = {
-    base: {
-  fontSize: '18px',
-  lineHeight: '24px',
-  padding: '10px 10px',
-  boxSizing: 'border-box',
-  borderRadius: '5px',
-  border: '#b6b6b6 1px solid',
+  base: {
+    fontSize: '18px',
+    lineHeight: '24px',
+    padding: '10px 10px',
+    boxSizing: 'border-box',
+    borderRadius: '5px',
+    border: '#b6b6b6 1px solid',
         '::placeholder': {
             color: '#aab7c4'
         }

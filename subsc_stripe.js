@@ -1,3 +1,11 @@
+/* 4ESuscStripe
+
+Copyright (c) 2020 4EVR and Hirosato Matsuura
+Released under the MIT license
+https://opensource.org/licenses/mit-license.php
+
+*/
+
 // Stripe API Key'
 var stripe = Stripe('pk_test..');
 var elements = stripe.elements();

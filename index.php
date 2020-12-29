@@ -1,3 +1,13 @@
+<?php
+/* 4ESuscStripe
+
+Copyright (c) 2020 4EVR and Hirosato Matsuura
+Released under the MIT license
+https://opensource.org/licenses/mit-license.php
+
+*/
+
+?>
 <form action="/subscstripe.php" method="post" id="payment-form">
     <div>
      クレジットカード番号 

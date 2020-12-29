@@ -1,4 +1,12 @@
 <?php
+/* 4ESuscStripe
+
+Copyright (c) 2020 4EVR and Hirosato Matsuura
+Released under the MIT license
+https://opensource.org/licenses/mit-license.php
+
+*/
+
 require_once('/..../stripe/init.php');
 \Stripe\Stripe::setApiKey("sk_test_........);
 // Get the token from the JS script
